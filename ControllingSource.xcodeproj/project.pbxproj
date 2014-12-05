@@ -65,6 +65,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38881A0B1A316880000BB668 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				38DB4F641A31565900E77834 /* MasterViewController.h */,
+				38DB4F651A31565900E77834 /* MasterViewController.m */,
+				38DB4F671A31565900E77834 /* DetailViewController.h */,
+				38DB4F681A31565900E77834 /* DetailViewController.m */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		38DB4F4E1A31565900E77834 = {
 			isa = PBXGroup;
 			children = (
@@ -88,10 +99,7 @@
 			children = (
 				38DB4F5E1A31565900E77834 /* AppDelegate.h */,
 				38DB4F5F1A31565900E77834 /* AppDelegate.m */,
-				38DB4F641A31565900E77834 /* MasterViewController.h */,
-				38DB4F651A31565900E77834 /* MasterViewController.m */,
-				38DB4F671A31565900E77834 /* DetailViewController.h */,
-				38DB4F681A31565900E77834 /* DetailViewController.m */,
+				38881A0B1A316880000BB668 /* Resources */,
 				38DB4F6A1A31565900E77834 /* Main.storyboard */,
 				38DB4F6D1A31565900E77834 /* Images.xcassets */,
 				38DB4F6F1A31565900E77834 /* LaunchScreen.xib */,
@@ -422,6 +430,7 @@
 				38DB4F821A31565900E77834 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38DB4F831A31565900E77834 /* Build configuration list for PBXNativeTarget "ControllingSourceTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +439,7 @@
 				38DB4F851A31565900E77834 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
